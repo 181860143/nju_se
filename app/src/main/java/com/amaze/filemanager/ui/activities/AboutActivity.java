@@ -28,18 +28,22 @@ import com.amaze.filemanager.ui.activities.superclasses.BasicActivity;
 import com.amaze.filemanager.ui.theme.AppTheme;
 import com.amaze.filemanager.utils.Billing;
 import com.amaze.filemanager.utils.Utils;
+import com.amaze.filemanager.zzActivity;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.mikepenz.aboutlibraries.Libs;
 import com.mikepenz.aboutlibraries.LibsBuilder;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -263,5 +267,11 @@ public class AboutActivity extends BasicActivity implements View.OnClickListener
     if (billing != null) {
       billing.destroyBillingInstance();
     }
+  }
+  //public static final String EXTRA_MESSAGE = "com.amaze.filemanager.ui.activities.AboutActivity";
+  public void button1(View view){
+    Intent intent;
+    intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+    startActivityForResult(intent, 0);
   }
 }
