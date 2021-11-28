@@ -15,11 +15,5 @@ public class zzActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zz);
-
-        Intent intent = getIntent();
-        //String message = intent.getStringExtra(AboutActivity.EXTRA_MESSAGE);
-
-        //TextView textView = findViewById(R.id.textView);
-        //textView.setText(message);
     }
 }

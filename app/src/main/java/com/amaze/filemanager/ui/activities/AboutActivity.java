@@ -50,6 +50,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.app.ComponentActivity;
 import androidx.palette.graphics.Palette;
 
 /** Created by vishal on 27/7/16. */
@@ -278,6 +279,14 @@ public class AboutActivity extends BasicActivity implements View.OnClickListener
   public void button2(View view){
     Uri uri = Uri.parse("http://www.baidu.com");
     Intent intent  = new Intent(Intent.ACTION_VIEW, uri);
+    startActivity(intent);
+  }
+  public void button3(View view){
+    Intent intent = new Intent(Intent.ACTION_SEND);
+    intent.putExtra(Intent.EXTRA_EMAIL, "957227804@qq.com");
+    intent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
+    intent.putExtra(Intent.EXTRA_TEXT, "Hello");
+    intent.setType("text/plain");
     startActivity(intent);
   }
 }
