@@ -37,6 +37,7 @@ import com.mikepenz.aboutlibraries.LibsBuilder;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -273,5 +274,10 @@ public class AboutActivity extends BasicActivity implements View.OnClickListener
     Intent intent;
     intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
     startActivityForResult(intent, 0);
+  }
+  public void button2(View view){
+    Uri uri = Uri.parse("http://www.baidu.com");
+    Intent intent  = new Intent(Intent.ACTION_VIEW, uri);
+    startActivity(intent);
   }
 }
