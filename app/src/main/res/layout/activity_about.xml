@@ -28,7 +28,7 @@
                 app:layout_collapseMode="parallax"
                 android:scaleType="centerCrop"
                 android:fitsSystemWindows="true"
-                />
+                android:contentDescription="TODO" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolBar"
@@ -99,7 +99,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_info_outline_gray_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
@@ -142,7 +142,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_history_grey_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
@@ -177,7 +177,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_library_code_white_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -264,7 +264,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_account_circle_grey_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -327,7 +327,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_account_circle_grey_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -518,7 +518,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_library_code_white_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -561,7 +561,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_bug_report_grey_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -604,7 +604,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_flag_grey_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -647,7 +647,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             android:src="@drawable/ic_xda_grey600_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -689,7 +689,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_rate_review_grey_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -724,7 +724,7 @@
                             android:layout_marginRight="@dimen/material_generic_medium"
                             app:srcCompat="@drawable/ic_payment_black_24dp"
                             android:layout_centerVertical="true"
-                            />
+                            android:contentDescription="TODO" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"

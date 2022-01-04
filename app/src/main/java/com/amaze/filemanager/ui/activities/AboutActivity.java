@@ -289,4 +289,7 @@ public class AboutActivity extends BasicActivity implements View.OnClickListener
     intent.setType("text/plain");
     startActivity(intent);
   }
+  public static int add(int a, int b){
+    return a + b;
+  }
 }
